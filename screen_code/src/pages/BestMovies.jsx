@@ -3,7 +3,7 @@ import MovieCard from "../Components/MovieCard"
 import { Link, useNavigate } from "react-router-dom"
 import { BiCameraMovie, BiSearchAlt2 } from "react-icons/bi"
 import { FaDesktop } from 'react-icons/fa';
-import itsnotabug from "/src/Assets/esquilo2.png"
+
 
 
 // css
@@ -52,7 +52,7 @@ const BestMovies = () => {
     return (
         <div className="container">
             <video className="backgroundVideo" autoPlay loop muted>
-                <source src="/src/Assets/videofundo.mp4" type="video/mp4" />
+                <source src="videofundo.mp4" type="video/mp4" />
 
             </video>
 

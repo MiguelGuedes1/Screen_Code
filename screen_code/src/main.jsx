@@ -8,7 +8,7 @@ import Home from './pages/Home.jsx'
 import Movie from './pages/Movie.jsx'
 import Search from './pages/Search.jsx'
 import About from './pages/About.jsx'
-import BestMovies from './pages/bestMovies.jsx'
+import BestMovies from './pages/BestMovies.jsx'
 
 // css
 

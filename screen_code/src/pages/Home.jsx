@@ -50,7 +50,7 @@ const Home = () => {
     return (
         <div className="container">
             <video className="backgroundVideo" autoPlay loop muted>
-                <source src="/src/Assets/videofundo.mp4" type="video/mp4" />
+                <source src="videofundo.mp4" type="video/mp4" />
 
             </video>
 
