@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Define a altura mínima para ocupar a tela inteira */
+}
+
+.App-content {
+    flex-grow: 1;
+    /* Faz o conteúdo ocupar todo o espaço disponível na vertical */
+}

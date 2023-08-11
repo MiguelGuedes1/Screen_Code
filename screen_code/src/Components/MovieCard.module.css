@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap');
+
+.moviecard {
+    border: solid 0.5px rgb(65, 65, 51);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(232, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.moviecard img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.moviecard:hover {
+    transform: scale(1.1);
+    animation: pulse 1.8s infinite;
+    box-shadow: 0 0 30px rgba(232, 0, 0, 0.5);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.moviecard a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+
+}
+
+.moviecard h2 {
+    font-family: "Caveat";
+    color: #aaa;
+}
+
+
+
+
+
+/* media queries*/
+
+@media (max-width: 558px) {
+
+    .moviecard img {
+
+        width: 250px;
+    }
+
+    .moviecard {
+        border: solid 0.5px transparent;
+        box-shadow: 0 0 10px transparent;
+    }
+
+
+}
+
+
+@media (max-width: 313px) {
+    .moviecard img {
+
+        width: 175px;
+    }
+
+}

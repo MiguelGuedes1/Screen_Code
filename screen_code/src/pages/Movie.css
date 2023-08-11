@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins&display=swap');
+
+.movie-page {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 6rem 0;
+}
+
+.info1 {
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.info1 h3,
+p {
+    color: #aaa;
+    font-family: "Caveat";
+    font-size: 1.6rem;
+    padding: 0 2rem;
+}
+
+.info h3,
+p {
+    color: #aaa;
+    font-family: "Caveat";
+    font-size: 1.6rem;
+    padding: 0 2rem;
+}
+
+
+
+/* media queries*/
+
+@media (max-width: 558px) {
+
+    .info1 {
+        font-size: 0.8rem;
+    }
+
+    .info h3,
+    p {
+        color: #aaa;
+        font-family: "Caveat";
+        font-size: 1.1rem;
+    }
+
+
+}

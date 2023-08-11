@@ -1,0 +1,121 @@
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(18, 18, 18, 0.5);
+}
+
+.navbar h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: aliceblue;
+    font-family: "Caveat";
+    font-size: 1.7rem;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    font-family: "Caveat";
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: rgb(168, 83, 126);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(168, 83, 126);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 665px) {
+
+    .navbar {
+        padding: 1.9rem 2rem;
+    }
+
+
+    .toggle-button {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .navbar ul {
+
+        flex-direction: column;
+        margin-top: 30px;
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .navbar ul.open {
+        display: flex;
+
+    }
+
+    .navbar li {
+        text-align: center;
+    }
+
+    .navbar a {
+
+        width: 100%;
+        visibility: visible;
+
+    }
+
+    .navbar h2 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 1.3rem;
+        margin-top: 5.5px;
+    }
+}
