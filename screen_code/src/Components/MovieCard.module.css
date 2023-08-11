@@ -50,6 +50,7 @@
 .moviecard h2 {
     font-family: "Caveat";
     color: #aaa;
+
 }
 
 
@@ -68,13 +69,36 @@
     .moviecard {
         border: solid 0.5px transparent;
         box-shadow: 0 0 10px transparent;
+
     }
+
+    .moviecard:hover {
+        transform: scale(1.1);
+        animation: none;
+        /* Remover a animação */
+        box-shadow: 0 0 30px rgba(232, 0, 0, 0.5);
+    }
+
 
 
 }
 
 
 @media (max-width: 313px) {
+
+    .moviecard {
+        border: solid 0.5px transparent;
+        box-shadow: 0 0 10px transparent;
+
+    }
+
+    .moviecard:hover {
+        transform: scale(1.1);
+        animation: none;
+        /* Remover a animação */
+        box-shadow: 0 0 30px rgba(232, 0, 0, 0.5);
+    }
+
     .moviecard img {
 
         width: 175px;

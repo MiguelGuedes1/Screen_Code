@@ -37,10 +37,7 @@ const Movie = () => {
     return (
         <div className="movie-page">
 
-            <video className="backgroundVideo" autoPlay loop muted>
-                <source src="videofundo.mp4" type="video/mp4" />
-
-            </video>
+            <div className="backgroundimage"></div>
 
             {movie && (
                 <>
