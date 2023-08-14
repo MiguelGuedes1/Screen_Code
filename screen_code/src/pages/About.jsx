@@ -27,7 +27,7 @@ const About = () => {
             </p>
 
             <p className={styles.about_icons}>
-                <Link to="https://github.com/MiguelGuedes1/Tips-for-Devs-Project" target="_blank" rel="noopener noreferrer"> <FaLink /> </Link>
+                <Link to="https://github.com/MiguelGuedes1/screen_code" target="_blank" rel="noopener noreferrer"> <FaLink /> </Link>
 
             </p>
 

@@ -92,3 +92,17 @@
 
 
 }
+
+@media (max-width: 215px) {
+
+    .footer h3 {
+        font-size: 0.2rem;
+    }
+
+    .footer p {
+        font-size: 0.6rem;
+    }
+
+
+
+}
